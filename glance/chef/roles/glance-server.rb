@@ -6,8 +6,7 @@ run_list(
          "recipe[glance::cache]",
          "recipe[glance::scrubber]",
          "recipe[glance::setup]",
-         "recipe[glance::monitor]",
-         "recipe[glance::qemu]"
+         "recipe[glance::monitor]"
 )
 default_attributes()
 override_attributes()
